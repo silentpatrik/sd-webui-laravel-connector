@@ -1,4 +1,4 @@
 import launch
 
-if not launch.is_installed("tweepy"):
-    launch.run_pip("install tweepy", "tweepy")
+if not launch.is_installed(" mysql.connector"):
+    launch.run_pip("install mysql.connector")
